@@ -1,0 +1,11 @@
+{
+  "name": "JobScheduler",
+  "version": "0.0.1",
+  "description": "JobScheduler on Docker",
+  "author": "Mauricio Amezcua <mamezcua94@gmail.com>",
+  "main": "init.js",
+  "scripts": {
+    "start": "node init.js"
+  },
+  "dependencies": {}
+}

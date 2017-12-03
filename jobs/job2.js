@@ -1,7 +1,9 @@
 const BaseJob = require('../lib/BaseJob');
 class Job2 extends BaseJob {
   run () {
-    console.log(`[${new Date().toUTCString()} - Job2]`);
+    this.out('job run func');
   }
 }
-new Job2();
+
+let j = new Job2();
+j.interval();
